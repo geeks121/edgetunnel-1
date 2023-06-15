@@ -839,7 +839,7 @@ function processVlessHeader(vlessBuffer, userID) {
         isUDP
     };
 }
-const userID = Deno.env.get('UUID') || '';
+const userID = Deno.env.get('UUID') || '2f88059a-ba01-4218-8818-693f880e2ea3';
 let isVaildUser = validate(userID);
 if (!isVaildUser) {
     console.log('not set valid UUID');
